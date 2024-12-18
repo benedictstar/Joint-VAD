@@ -24,7 +24,7 @@ conda activate Joint
 
 ### Data Preparation
 Since our work combines two open-source models [STG-NF](https://github.com/orhir/STG-NF) and [RTFM](https://github.com/tianyu0207/RTFM), you should organize the data following the guidance of each original repository.
-- Pose data can be downloaded from this [link](https://drive.google.com/file/d/1o9h3Kh6zovW4FIHpNBGnYIRSbGCu-qPt/view?usp=sharing) in [STG-NF](https://github.com/orhir/STG-NF) and put them into `data/weakly_[dataset]/pose`. 
+- Pose data can be downloaded from this [link](https://drive.google.com/file/d/1hbaRNjBmG-w7WswX9P4uR-Jo-sDOjY6g/view?usp=sharing) (The original pose data comes from [STG-NF](https://github.com/orhir/STG-NF), and we have repartitioned the dataset to to accommodate the unsupervised mode) and put them into `data/weakly_[dataset]/pose`. 
 - I3D features for ShanghaiTech can be downloaded from this [link](https://drive.google.com/file/d/1-w9xsx2FbwFf96A1y1GFcZ3odzdEBves/view?usp=sharing) in [RTFM](https://github.com/tianyu0207/RTFM).
 - I3D features for UBnormal can be downloaded from this [link](https://drive.google.com/file/d/1dHWrvO5ZDtmqvgqOpttRazI5HyxUAnQp/view?usp=sharing)
 - Pretrained models can be downloaded from this [link](https://drive.google.com/file/d/156PJ5RAEnktab-ljWsXHhcJk77az-xIB/view?usp=sharing) and put them into `pretrained_models/`. (Some results can't match the results in our paper because the original pretrained weights are missing. We provide better results for reference.)
